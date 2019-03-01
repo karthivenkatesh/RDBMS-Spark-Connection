@@ -21,7 +21,7 @@ object MysqlConnection {
     val tableName = "world.country"
     val props = new Properties()
     props.put("user", "venkat") //Specify the db user name & Password
-    props.put("password", "root")
+    props.put("password", "xxxx")
 
     // Driver class
     Class.forName("com.mysql.jdbc.Driver")
